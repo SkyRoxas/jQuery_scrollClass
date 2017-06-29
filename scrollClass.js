@@ -47,5 +47,6 @@
     $(window).scroll(function () {
       srollClassEvent()
     })
+    return this
   }
 })(jQuery)
